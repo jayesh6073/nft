@@ -1,0 +1,18 @@
+.headerlogo {
+  width: 200px;
+  display: inline-flex;
+  align-self: center;
+  justify-content: center;
+}
+
+img {
+  width: 50px;
+}
+.logo-name {
+  /* text-align: center; */
+  align-self: flex-end;
+}
+
+h2 {
+  color: white;
+}

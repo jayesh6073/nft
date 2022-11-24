@@ -1,0 +1,5 @@
+.bg-image {
+  background-image: url("../image/minter\ bg\ image.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
