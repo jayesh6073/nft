@@ -10,8 +10,8 @@ import Header from "./header/Header.js";
 const HomePage = (props) => {
   return (
     <Fragment>
+      <Header />
       <div className="bg-image">
-        <Header />
         <Home />
         <AboutSection />
       </div>

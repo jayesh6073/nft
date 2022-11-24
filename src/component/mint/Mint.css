@@ -1,0 +1,65 @@
+.bg-image1 {
+  background-image: url("../../image/minter\ bg\ image.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.mint-container {
+  width: 600px;
+  height: 100%;
+  /* background-color: rgba(228, 202, 228, 0.6); */
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+}
+.mint-title {
+  padding-top: 10px;
+  margin-bottom: 21px;
+}
+.mint-title h4 {
+  font-size: 20px;
+  letter-spacing: 0.8px;
+  padding-bottom: 5px;
+}
+.mint-title span {
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  /* color: rgba(70, 66, 66, 1); */
+}
+.mint-image-upload {
+  width: 200px;
+  height: 200px;
+  border: 1px dashed white;
+  margin: 0 auto;
+  margin-bottom: 25px;
+  transition: all 1s;
+}
+.mint-image-upload img {
+  width: 100%;
+  height: 100%;
+}
+
+.mint-image-upload:hover {
+  /* transform: scale(0.8); */
+  /* transform: rotate(360deg) scale(0.7); */
+  transition: all 1s;
+  cursor: pointer;
+}
+.mint-section-divide-line {
+  width: 80%;
+  height: 1px;
+  background-color: white;
+  margin: 0 auto;
+  margin-bottom: 18px;
+}
+.mint-guide-content {
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  /* color: rgba(70, 66, 66, 1); */
+}
+.mint-form {
+  margin-left: 75px;
+  margin-top: 20px;
+  /* padding-bottom: 27px; */
+}

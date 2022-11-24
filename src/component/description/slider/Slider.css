@@ -4,6 +4,7 @@
   background-color: rgba(252, 179, 253, 0.4);
   font-family: "Poppins", sans-serif;
   font-size: 40px;
+  z-index: 0;
 }
 @keyframes slidy {
   0% {

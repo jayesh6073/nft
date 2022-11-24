@@ -12,7 +12,9 @@ const Header = (props) => {
         <div className="header-content">
           <ul className="navlinks">
             <li>
-              <a href="#about">Home</a>
+              <Link to="/">
+                <a href="#about">Home</a>
+              </Link>
             </li>
             <li>
               <a href="#demo">About</a>
@@ -23,7 +25,9 @@ const Header = (props) => {
               </Link>
             </li>
             <li>
-              <a href="#howto">Portfolio</a>
+              <Link to="/portfolio">
+                <a href="#howto">Portfolio</a>
+              </Link>
             </li>
           </ul>
         </div>

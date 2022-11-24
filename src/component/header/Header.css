@@ -1,8 +1,11 @@
 .header {
   display: flex;
-  justify-content: space-between;
   position: sticky;
+  top: 0;
   justify-content: flex-start;
+  background-color: rgba(47, 60, 74, 0.5);
+  height: 65px;
+  z-index: 1;
 }
 .header-content {
   width: 850px;

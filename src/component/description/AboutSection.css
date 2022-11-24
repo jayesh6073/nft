@@ -21,7 +21,7 @@
   padding-top: 110px;
 }
 .row .about-section__inform:hover {
-  transform: scale(1.2);
+  transform: scale(1.05);
   transition: all 1s;
   padding-bottom: 20px;
 }
@@ -34,7 +34,9 @@
   height: auto;
 }
 .image-section img:hover {
-  transform: scale3d(-1, 1, 1);
+  /* transform: scale3d(-1, 1, 1); */
+  transform: rotate(360deg) scale(0.9);
+
   transition: all 1.5s;
   cursor: pointer;
 }
