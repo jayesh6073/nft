@@ -1,0 +1,10 @@
+.bg-image2 {
+  background-image: url("../../image/minter\ bg\ image.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}

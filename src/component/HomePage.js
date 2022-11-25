@@ -1,21 +1,21 @@
 import React, { Fragment } from "react";
 import "./HomePage.css";
 import AboutSection from "./description/AboutSection.js";
-import Home from "./description/Home.js";
 import SignupInfo from "./description/signup-info/SignupInfo.js";
-import Slider from "./description/slider/Slider.js";
+// import Slider from "./description/slider/Slider.js";
 import Footer from "./footer/Footer.js";
 import Header from "./header/Header.js";
+import LiveAction from "./description/live service/LiveAction";
 
 const HomePage = (props) => {
   return (
     <Fragment>
       <Header />
       <div className="bg-image">
-        <Home />
         <AboutSection />
+        <LiveAction />
       </div>
-      <Slider />
+      {/* <Slider /> */}
       <SignupInfo />
       <Footer />
     </Fragment>

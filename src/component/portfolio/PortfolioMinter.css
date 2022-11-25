@@ -1,0 +1,31 @@
+.portfolio-minter-container {
+  width: 300px;
+  height: 505px;
+  /* height: 360px; */
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-top: 35px;
+}
+.portfolio-minter-image {
+  /* margin: 0 auto; */
+  display: flex;
+  flex-wrap: wrap;
+}
+.portfolio-minter-image img {
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+.portfolio-minter-image span {
+  text-align: center;
+  margin-left: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+.portfolio-minter-price {
+  margin: 15px 0px 0px 20px;
+}
+.portfolio-minter-create {
+  margin: 15px 0px 0px 20px;
+}

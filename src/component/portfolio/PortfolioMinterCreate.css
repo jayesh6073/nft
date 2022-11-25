@@ -1,0 +1,25 @@
+.portfolio-minter-create-container {
+  width: 200px;
+  height: 46px;
+  /* background-color: rgb(84, 79, 79); */
+  background-color: rgb(228, 202, 228);
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.portfolio-minter-create-container img {
+  width: 34px;
+  height: 34px;
+  margin: 6px 0 6px 10px;
+  border-radius: 50%;
+  border: 1px solid white;
+}
+.portfolio-minter-create-container span {
+  /* text-align: center; */
+  font-size: 13px;
+  color: #464246;
+  font-weight: 600;
+  align-self: center;
+  padding-right: 10px;
+}

@@ -1,0 +1,61 @@
+.card1 {
+  width: 260px;
+  background-color: #16151a;
+  height: 410px;
+  border-radius: 10px;
+  /* margin-top: 90px; */
+  padding: 30px 30px;
+}
+
+.card1 img {
+  width: 190px;
+  height: 200px;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+.boxI {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+.l2 {
+  text-align: center;
+  color: white;
+  text-transform: capitalize;
+  font-size: 10px;
+  margin-top: 20px;
+}
+
+.viewBtn {
+  cursor: pointer;
+  padding: 3px 10px;
+}
+
+.l4 {
+  margin: 0 auto;
+}
+
+.purchase {
+  margin-top: 20px;
+  padding: 7px 30px;
+  text-align: center;
+  /* margin-left: 40px; */
+  border: none;
+  background-color: rgba(30, 115, 86, 0.5);
+  border-radius: 10px;
+  /* background-color: #301697; */
+  color: white;
+  font-size: 15px;
+  transition: all 1s;
+  cursor: pointer;
+}
+
+.l4 :hover {
+  letter-spacing: 3px;
+  background-color: #16151a;
+  border-right: 2px solid white;
+  border-bottom: 2px solid white;
+}
+.l3 {
+  margin-left: -4px;
+}
